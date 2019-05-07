@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "removeComments": true,
+    "declaration": false,
+    "target": "ES6",
+    "module": "CommonJS"
+  },
+  "filesGlob": [
+    "./ts/**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "exclude": [
+    "tmp"
+  ]
+}
